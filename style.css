@@ -9,6 +9,9 @@ body {
     font-family: 'Roboto', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
+p {
+    font-family: sans-serif;
+}
 .row {
     width: 60%;
     margin: auto;
@@ -45,7 +48,6 @@ body {
     cursor: pointer ;
 }
 .head h2 {
-    align-items: center;
     text-align: center;
 }
 .box {
@@ -63,4 +65,20 @@ body {
     color: white;
     text-align: center;
     bottom: 0;
+}
+.box h2 {
+    padding-bottom: 1rem;
+    color: rgb(7, 7, 248);
+}
+.py {
+    padding-bottom: 1rem;
+}
+.p-y {
+    padding-top: 2rem;
+}
+.px {
+    padding-left: 1rem;
+}
+.text {
+    text-align: center;
 }
